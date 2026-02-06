@@ -61,6 +61,24 @@ flowchart TD
     class S1,S2 supervisor;
 ```
 
+**3. Key Challenges & Solutions**
+- **Coordination**: Agents sometimes duplicated tasks.
+Solution: Implemented a planner agent to assign roles.
+
+- **Hallucinations**: Agents sometimes generated incorrect facts.
+Solution: Added a research agent and verification prompts.
+
+- **Infinite Loops**:Agents occasionally repeated messages.
+Solution: Added step limits and termination conditions.
+
+- **Cost**:Multiple API calls increased cost.
+Solution: Reduced token limits and optimized prompts.
+
+## 4. Reflection Report
+
+The multi-agent approach provided several advantages over a single-agent system. By assigning specialized roles to different agents, the system was able to break down complex tasks into manageable subtasks, improving response quality and structure. The planner agent helped coordinate tasks, while the research and writer agents focused on accuracy and clarity, respectively. This modular design made the system more scalable and easier to debug.
+
+Compared to a single agent, the multi-agent system reduced hallucinations and improved task organization. However, it introduced challenges such as increased API costs and coordination complexity. These issues were mitigated by limiting agent steps and optimizing prompts. Overall, the multi-agent architecture demonstrated better collaboration, reliability, and extensibility for complex AI tasks.
 
 # Run and deploy your AI Studio app
 
