@@ -11,7 +11,7 @@ The multi-agent architecture was chosen to simulate a real tutoring team where e
 
 ## 2. Agent Team Design
 
-### Agents and Roles
+### 2.1. Agents and Roles
 
 - **Supervisor Agent**  
   Coordinates all tutoring agents, decides which agent should act next, and determines when to request human approval.
@@ -36,7 +36,7 @@ The multi-agent architecture was chosen to simulate a real tutoring team where e
 
 ---
 
-### Communication Flow Diagram
+### 2.2. Communication Flow Diagram
 ```mermaid
 flowchart TD
 
