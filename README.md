@@ -17,10 +17,10 @@ The multi-agent architecture was chosen to simulate a real tutoring team where e
   Coordinates all tutoring agents, decides which agent should act next, and determines when to request human approval.
 
 - **Curriculum Planner Agent**  
-  Creates a structured learning roadmap by dividing Python into modules and submodules.
+  Creates a structured learning roadmap by dividing the course of interest into modules and submodules.
 
 - **Concept Explainer Agent**  
-  Explains Python concepts in simple and understandable language.
+  Explains concepts in simple and understandable language.
 
 - **Assessment Generator Agent**  
   Generates multiple-choice questions (MCQs) based on covered topics and provides interactive options for students.
@@ -37,11 +37,30 @@ The multi-agent architecture was chosen to simulate a real tutoring team where e
 ---
 
 ### Communication Flow Diagram
+```mermaid
+flowchart TD
 
+    U1[User] --> S1[Supervisor]
+    S1 --> CP[Curriculum Planner]
+    CP --> U2[User Review]
+    U2 --> S2[Supervisor]
+    S2 --> CE[Concept Explainer]
+    CE --> EV[Evaluator]
+    EV --> U3[User Learning]
+    U3 --> AG[Assessment Generator]
+    AG --> U4[User Answers]
+    U4 --> FA[Feedback Analyzer]
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+    %% Styling
+    classDef user fill:#e3f2fd,stroke:#1e88e5,stroke-width:2px,color:#000;
+    classDef agent fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#000;
+    classDef supervisor fill:#fff3e0,stroke:#fb8c00,stroke-width:2px,color:#000;
+
+    class U1,U2,U3,U4 user;
+    class CP,CE,EV,AG,FA agent;
+    class S1,S2 supervisor;
+```
+
 
 # Run and deploy your AI Studio app
 
