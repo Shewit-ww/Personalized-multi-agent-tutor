@@ -62,17 +62,14 @@ flowchart TD
 ```
 
 **3. Key Challenges & Solutions**
-- **Coordination**: Agents sometimes duplicated tasks.
-Solution: Implemented a planner agent to assign roles.
-
+- **Coordination**: Multiple agents required proper sequencing.
+ **Solution**: Implemented a Supervisor agent to control execution order.
+  
 - **Hallucinations**: Agents sometimes generated incorrect facts.
-Solution: Added a research agent and verification prompts.
-
-- **Infinite Loops**:Agents occasionally repeated messages.
-Solution: Added step limits and termination conditions.
+**Solution**: Added an Evaluator agent to verify outputs.
 
 - **Cost**:Multiple API calls increased cost.
-Solution: Reduced token limits and optimized prompts.
+**Solution**: Reduced token limits and optimized prompts.
 
 ## 4. Reflection Report
 
