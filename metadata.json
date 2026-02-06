@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Multi-Agent AI Tutor",
+  "description": "An adaptive, multi-agent educational platform featuring a Supervisor, Curriculum Planner, Concept Explainer, and Assessment Generator for personalized learning.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
