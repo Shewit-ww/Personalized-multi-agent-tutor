@@ -131,7 +131,7 @@ View your app in AI Studio: https://ai.studio/apps/drive/1YmXIyQI66wa6iiVYaOWEzo
 ## Demo Scenario
 
 ### Example User Query
-"Teach me Python loops and give me a quiz."
+"I want to learn frontend web development"
 
 ### Agent Collaboration Flow
 1. Supervisor assigns task to Curriculum Planner.
@@ -144,7 +144,8 @@ View your app in AI Studio: https://ai.studio/apps/drive/1YmXIyQI66wa6iiVYaOWEzo
 ### Screenshots
 ## 5. Demo Screenshots
 
-![Tutor UI](screenshots/ui.png)
+![Tutor UI](Screenshots/start.png)
+**Figure 1:** User interacting with the Supervisor agent and curriculum planner.
 ![Agents](screenshots/agents.png)
 ![Quiz](screenshots/quiz.png)
 
