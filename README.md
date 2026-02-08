@@ -135,17 +135,98 @@ View your app in AI Studio: https://ai.studio/apps/drive/1YmXIyQI66wa6iiVYaOWEzo
 
 ### Agent Collaboration Flow
 1. Supervisor assigns task to Curriculum Planner.
-2. Curriculum Planner creates learning roadmap.
-3. Concept Explainer teaches loops with examples.
+2. Curriculum Planner creates learning roadmap dividing the course into modules and submodules.
+3. Concept Explainer prepares content for each module or submodule that the user chooses.
 4. Evaluator checks explanation quality.
 5. Assessment Generator creates quiz questions.
 6. Feedback Analyzer evaluates student answers.
 
-### Screenshots
-## 5. Demo Screenshots
 
-![Tutor UI](Screenshots/start.png)
-**Figure 1:** User interacting with the Supervisor agent and curriculum planner.
-![Agents](screenshots/agents.png)
-![Quiz](screenshots/quiz.png)
+# 5. Demo Screenshots
+User interacting with the Supervisor agent and curriculum planner with the text input field.
+![UI](Screenshots/start.png)
+
+
+After the using sent his/her input the agent communicate as we can see the chat in the **Agent Intelligence Feed**
+
+**N.B.** the chat start from the bottom and goes up.
+
+here the **supervisor** receives the input and assigns the task to the **Curriculum Planner**
+
+![chat1](Screenshots/chat_sc.png)
+
+The **curriculum planner** generates a roadmap for the course.
+
+![UI](Screenshots/chat_c.png)
+
+
+![UI](Screenshots/modules1.png)
+
+![UI](Screenshots/modules2.png)
+
+![UI](Screenshots/modules3.png)
+
+![UI](Screenshots/modules4.png)
+
+user can click on the "**START LESSON**" button to start a submodule or click **RESUME MODULE** to resume a submodule 
+
+![UI](Screenshots/select.png)
+
+The **Supervisor** receives the task and assign it to the **Concept Explainer**.
+The **Concept Explainer** drafts a content and send it the **Evaluator Agent**.
+
+![UI](Screenshots/chat_con.png)
+
+The **Evaluator Agent** critiques the output of the **Concept Explainer** for improvement befor the final delivery.
+
+![UI](Screenshots/chat_ev.png)
+
+Then finally Here comes the content. this is the **Beginning** of the lesson
+
+![UI](Screenshots/lesson.png)
+
+
+After scrolling down the lesson here is what it looks like the end of the lesson with the buttton to take an **Assessment**
+
+![UI](Screenshots/endlesson.png)
+
+**Assessment**
+
+![UI](Screenshots/assessment.png)
+
+
+
+user Answering questions by just clicking on the choice. 
+It gives a feedback whether the answer is **Right** or **Wrong** as soon as the user clicks his/her choice
+
+![UI](Screenshots/answer.png)
+
+![UI](Screenshots/wrong.png)
+
+for moving to the next question there is a button
+
+![UI](Screenshots/nextq.png)
+
+
+
+
+**submitting the quiz**
+
+![UI](Screenshots/submit.png)
+
+
+The **Feedback Analyzer Agent** processes the user answers and displays the **Result**
+
+![UI](Screenshots/result.png)
+
+**Progress Report**
+
+![UI](Screenshots/progress.png)
+
+to go to another module go to the **Curriculum** button on the side menu then we can select the module we are interested in.
+
+![UI](Screenshots/anothermodule.png)
+
+
+![UI](Screenshots/again.png)
 
