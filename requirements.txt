@@ -1,3 +1,2 @@
-openai
-crewai
-google-generativeai
+# This project uses Node.js, React, and TypeScript.
+# Python is not required. Dependencies are managed in package.json.
