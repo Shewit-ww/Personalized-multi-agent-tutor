@@ -142,4 +142,9 @@ View your app in AI Studio: https://ai.studio/apps/drive/1YmXIyQI66wa6iiVYaOWEzo
 6. Feedback Analyzer evaluates student answers.
 
 ### Screenshots
-(Add screenshots of your running app here)
+## 5. Demo Screenshots
+
+![Tutor UI](screenshots/ui.png)
+![Agents](screenshots/agents.png)
+![Quiz](screenshots/quiz.png)
+
