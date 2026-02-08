@@ -108,7 +108,7 @@ Compared to a single agent, the multi-agent system reduced hallucinations and im
 1. Download the repository:
    Click **Code → Download ZIP**  
    OR run:
-   git clone <your-repo-link>
+   git clone <https://github.com/Shewit-ww/Personalized-multi-agent-tutor.gityour-repo-link>
 
 2. Open the folder in VS Code.
 
@@ -120,8 +120,8 @@ Compared to a single agent, the multi-agent system reduced hallucinations and im
 5. Start the application:
    npm run dev
 
-6. Open this link in a browser:
-   http://localhost:5173
+6. 6. After running the app, the terminal will display a local URL (e.g., http://localhost:5173).  
+   Open that URL in a web browser.
 
 The multi-agent tutor interface will appear in the browser.
 
